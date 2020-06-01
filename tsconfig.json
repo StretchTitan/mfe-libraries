@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "mfe-services-pipes": [
+        "dist/mfe-services-pipes/mfe-services-pipes",
+        "dist/mfe-services-pipes"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
